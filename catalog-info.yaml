@@ -46,6 +46,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: HusneShabbir
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: husneshabbir447@gmail.com
+  memberOf: [temp-team-a]
+---
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: mitesh-kumar
 spec:
   profile:
